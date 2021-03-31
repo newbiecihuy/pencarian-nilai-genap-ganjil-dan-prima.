@@ -21,7 +21,7 @@ int  main()
             } 
 
           }
-         else if (nilai % 2==0){
+         else{
             printf("%d adalah bilangan genap\n", nilai);
 	        if (nilai == 2 ){
 	           printf("%d adalah bilangan prima \n", nilai);
