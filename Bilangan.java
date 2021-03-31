@@ -24,7 +24,7 @@ public class Bilangan {
                     nilai = x;
                     if (nilai % 2 == 1) {
                         System.out.println(nilai + " adalah bilangan ganjil");
-                        if (nilai == 3 || nilai % nilai == 0 && nilai % 3 != 0) {//formula bilangan prima
+                        if (nilai == 3 || nilai % nilai == 0 && nilai % 3 != 0 && nilai % 5 != 0&& nilai % 7!= 0) {//formula bilangan prima
                             System.out.println(nilai + " adalah bilangan prima");
                         }
 
