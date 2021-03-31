@@ -3,8 +3,9 @@
 int  main()
 {
         int a,x,nilai;
-        printf("Masukkan angka : ");
-        scanf("%d", &a);
+//         printf("Masukkan angka : ");
+//         scanf("%d", &a);
+	a =10;
     if(a <= 1) {
 	     printf("Masukkan angka mulai dari 2.");
 	  }else{
