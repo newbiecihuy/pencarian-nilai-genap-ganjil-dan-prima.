@@ -15,7 +15,7 @@ int  main()
         	nilai = x;
         if(nilai % 2==1){
              printf("%d adalah bilangan ganjil\n", nilai);
-          if (nilai == 2 || nilai == 3 || nilai % nilai ==0 && nilai % 3 !=0 ){//formula bilangan prima
+          if (nilai == 3 || nilai % nilai ==0 && nilai % 3 !=0 ){//formula bilangan prima
 	           printf("%d adalah bilangan prima\n", nilai);
             } 
 
