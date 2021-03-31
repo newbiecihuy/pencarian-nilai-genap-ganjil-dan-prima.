@@ -24,11 +24,17 @@ public class Bilangan {
                     nilai = x;
                     if (nilai % 2 == 1) {
                         System.out.println(nilai + " adalah bilangan ganjil");
-                        f (nilai == 3 || nilai % nilai == 0 && nilai % 3 != 0 ) {//formula bilangan prima
-                            System.out.println(nilai + " adalah bilangan prima");
-                        }
-
-                    } else{
+                        if (nilai <= 10) {
+                            if (nilai == 3 || nilai % nilai == 0 && nilai % 3 != 0) {//formula bilangan prima // && nilai % 5 != 0&& nilai % 7!= 0)
+                                System.out.println(nilai + " adalah bilangan prima");
+                                }
+                            } else if (nilai > 10) {
+                                if (nilai == 3 || nilai % nilai == 0 && nilai % 3 != 0 && nilai % 5 != 0 && nilai % 7 != 0) {
+                                    System.out.println(nilai + " adalah bilangan prima");
+                                }
+                            }
+                        
+                    } else {
                         System.out.println(nilai + " adalah bilangan genap");
                         if (nilai == 2) {
                             System.out.println(nilai + " adalah bilangan prima");
