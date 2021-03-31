@@ -28,7 +28,7 @@ public class Bilangan {
                             System.out.println(nilai + " adalah bilangan prima");
                         }
 
-                    } else if (nilai % 2 == 0) {
+                    } else{
                         System.out.println(nilai + " adalah bilangan genap");
                         if (nilai == 2) {
                             System.out.println(nilai + " adalah bilangan prima");
