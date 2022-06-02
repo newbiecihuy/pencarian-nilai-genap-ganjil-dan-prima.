@@ -14,7 +14,7 @@ func main() {
 		if a == 2 {
 			fmt.Println(" merupakan bilangan prima. %d", a)
 		} else {
-			for x = 2; x < a; x + 1 {
+			for x = 2; x < a; x ++ {
 				nilai = x
 				if nilai%2 == 1 {
 					fmt.Println("%d adalah bilangan ganjil\n", nilai)
