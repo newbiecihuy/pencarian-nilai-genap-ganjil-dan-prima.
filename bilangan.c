@@ -1,4 +1,3 @@
-//  jar uf catalina.jar org/apache/catalina/util/ServerInfo.properties
 #include <stdio.h>
 
 int  main()
