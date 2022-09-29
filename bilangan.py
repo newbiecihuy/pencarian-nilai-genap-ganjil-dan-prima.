@@ -1,6 +1,6 @@
 __author__ = "newbiecihuy"
 __date__ = "$Mar 31, 2021 8:08:57 PM$"
-
+#  Python 3 code.
 angka = 100
 for x in range(2, angka):
     # print(x)
